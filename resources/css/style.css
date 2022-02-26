@@ -37,4 +37,143 @@ a:active { text-decoration: none; }
       color: rgb(82, 80, 80);
 
   }
- 
+  .banner{
+      display: flex;
+      float: row;
+      background-color: grey;
+  }
+  .banner-left{
+      padding: 32px 24px;
+      width: 60%;
+  }
+  .banner-right{
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      color:darkslategrey;
+      background-color: grey;
+      align-content: center;
+      justify-content: center;
+  }
+  .banner-left img{
+      max-width: 100%;
+      height: auto;
+      overflow: hidden;
+  }
+  .button{
+      background-color: darkslategray;
+      width: 70%;
+      padding: 8px 0;
+      text-align: center;
+      text-decoration: none;
+  }
+  .button a{
+      color:white;
+  }
+  .aboutus{
+    display: flex;
+    float: row;
+    background-color: white;
+  }
+  .aboutus-left{
+      width: 60%;
+      display: flex;
+      padding: 0 24px;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+  }
+  .aboutus-left img{
+      padding: 32px 0;
+  }
+  .aboutus-right{
+      width: 40%
+  }
+.event {
+    display: flex;
+    float: row;
+}
+.event img{
+    height: auto;
+    width: 35%;
+    padding: 16px;
+    
+}
+.event .eventdata{
+    width: 65%;
+}
+.guest{
+     background-color: grey;
+ }
+ .courses-container{
+     background-color: grey;
+
+ }
+ .courses-title{
+     padding: 32px 0;
+     text-align: center;
+ }
+ .courses{
+     padding: 0 72px 32px 72px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+ }
+ .course{
+     padding-bottom: 32px;
+     padding-right: 32px;
+
+ }
+ .course img{
+     height:auto;
+     padding-bottom: 16px;
+ }
+ .course-text {
+     padding-left: 16px;
+ }
+ .course h2{
+     padding-bottom: 8px;
+ }
+ .subtitle{
+     padding-bottom: 8px;
+ }
+ .classlist{
+     padding-bottom: 24px;
+ }
+ .exhibit-container{
+     display: flex;
+ }
+ .exhibit-section h1{
+     padding: 32px 0;
+     text-align: center;
+
+ }
+ .exhibit-left{
+     width: 60%;
+     padding-left: 24px;
+ }
+ .exhibit-left video{
+     width: 100%;
+     padding: 0 24px 24px 0;
+     
+ }
+ .exhibit-left h3{
+     padding-bottom: 8px;
+ }
+ .exhibit-left p{
+     padding-bottom: 32px;
+ }
+ .exhibit-right{
+     width: 40%;
+ }
+ .exhibit{
+     display: flex;
+}
+.exhibit img{
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+.exhibit-text{
+    width: 65%;
+}
