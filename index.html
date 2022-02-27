@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="./resources/css/style.css" type="text/css" />
 </head>
 <body>
-  <!--navigation bar-->
-  <nav>
+  <!--navigation bar desktop-->
+  <nav class="desktop">
     <div class="leftnav">
       <img src="./resources/media/ic-logo.svg" alt="the school  mascot, a gryffin">
       <p><span>Colmar</span>Academy</p>
@@ -21,6 +21,13 @@
       <a href="#">Sign In</a>
     </div>
   </nav>  
+    <!--navigation bar mobile-->
+  <nav class="mobile">
+    <a href="#"><img src="./resources/media/ic-logo.svg" alt="the school  mascot, a gryffin"></a>
+    <a href="#"><img src="./resources/media/ic-on-campus.svg" alt="in person classroom"></a>
+    <a href="#"><img src="./resources/media/ic-online.svg" alt="online classroom"></a>
+    <a href="#"><img src="./resources/media/ic-login.svg" alt="login"></a>
+  </nav>
   <!--Main Banner-->
   <div class="banner">
     <div class="banner-left">
@@ -34,8 +41,8 @@
       </div>
     </div>
   </div>
-  <!--About Us Banner-->
-  <div class="aboutus">
+  <!--About Us Banner desktop-->
+  <div class="aboutus desktop">
     <div class="aboutus-left">
       <img src="./resources/media/information-main.jpg" alt="man reading a book outside in a park">
       <h1>It doesn't hurt to keep practicing</h1>
@@ -74,8 +81,43 @@
       </div>
     </div>
   </div>
+  <!--About Us Banner mobile-->
+  <div class="mobile"></div>
+    <div class="aboutus">
+      <div class="aboutus-right">
+
+        <div class="event">
+          <img src="./resources/media/information-orientation-mobile.jpg" alt="">
+          <div class="eventdata">
+            <h2>Orientation date</h2>
+          <p>Tue 10/11 & Wed 10/12: 8am-3om</p>
+          <a href="#" >Read more</a>
+          </div>
+        </div>
+
+        <div class="event">
+          <img src="./resources/media/information-campus-mobile.jpg" alt="">
+          <div class="eventdata">
+            <h2>Our campus</h2>
+            <p>Find which campus is close by you</p>
+            <a href="#" >Read more</a>
+          </div>
+        </div>
+
+        <div class="event guest">
+          <img src="./resources/media/information-guest-lecture-mobile.jpg" alt="">
+          <div class="eventdata">
+            <h2>Our guest lecture</h2>
+            <p>Join a keynote with Oliver Sack about music in medicine.</p>
+            <a href="#" >Read more</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
   <!--Courses section-->
-  <div class="courses-container">
+  <div class="courses-container desktop">
     <h1 class="courses-title">Start learning</h1>
     <div class="courses">
 
@@ -134,6 +176,20 @@
       </div>
     </div>
   </div>
+<!--courses mobile-->
+  <div class="mobile2">
+    <div class="courses-container">
+      <h1>Start Leanrning</h1>
+      <div class="course-links">
+        <a href="#" >Software engineering</a>
+        <a href="#" >Computer art</a>
+        <a href="#" >Design</a>
+        <a href="#" >Data</a>
+        <a href="#" >Business</a>
+        <a href="#" >Marketing</a>
+    </div>
+    </div>
+  </div>
       <!--Thesis exhibit-->
 
       <div class="exhibit-section">
@@ -171,6 +227,13 @@
       </div>
 
       <!--footer-->
+      <footer>
+        <p class="left">
+          &copy; 2022 Colmar Academy. All rights reserved
+        </p>
+        <a href="#" class="right">Terms</a>
+        <a href="#" class="right">Privacy</a>
+      </footer>
 
    
 

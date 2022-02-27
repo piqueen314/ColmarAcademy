@@ -1,3 +1,4 @@
+/* navigation bar */
 nav{
     background-color: white;
     color: rgb(82, 80, 80);
@@ -37,9 +38,25 @@ a:active { text-decoration: none; }
       color: rgb(82, 80, 80);
 
   }
+.mobile{
+      display: none;
+  }
+@media only screen and (max-width: 760px) {
+    .desktop {
+       display: none;
+   }
+   .mobile{
+       display: flex;
+       height: 64px;
+       justify-content: space-evenly;
+       align-items: center;
+   }
+}
+
+ /* banner */ 
   .banner{
       display: flex;
-      float: row;
+      
       background-color: grey;
   }
   .banner-left{
@@ -58,7 +75,7 @@ a:active { text-decoration: none; }
   .banner-left img{
       max-width: 100%;
       height: auto;
-      overflow: hidden;
+      overflow:visible;
   }
   .button{
       background-color: darkslategray;
@@ -70,10 +87,42 @@ a:active { text-decoration: none; }
   .button a{
       color:white;
   }
+  @media only screen and (max-width: 760px) {
+    .banner {
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+    display: block;
+    
+    }
+    .banner-left{
+        width: 100%;
+        
+        overflow: auto;
+        padding: 0%;
+    }
+    .banner-right{
+    width: 100%;
+    align-content: center;
+    padding-left: 16px;
+    }
+    .banner-right h1 {
+        padding: 32px 0;
+    }
+    .banner-left h2{
+        padding-bottom: 24px;
+    }
+    .button{
+        align-self: center;
+        margin-bottom: 32px;
+    }
+  }
+
+  /* about us section */
   .aboutus{
     display: flex;
-    float: row;
     background-color: white;
+    
   }
   .aboutus-left{
       width: 60%;
@@ -89,9 +138,9 @@ a:active { text-decoration: none; }
   .aboutus-right{
       width: 40%
   }
+/* about us: event section */
 .event {
     display: flex;
-    float: row;
 }
 .event img{
     height: auto;
@@ -105,6 +154,42 @@ a:active { text-decoration: none; }
 .guest{
      background-color: grey;
  }
+.mobile{
+     display: none;
+ }
+ @media only screen and (max-width: 760px) {
+     .desktop{
+         display: none; 
+     }
+     .mobile{
+        display: flex;
+        background-color: white;
+        flex-wrap: wrap;
+        width: 100%;
+        height:fit-content;
+      }
+   
+   .aboutus-right{
+       width: 100%;
+       /* display: flex;
+       flex-direction: column; */
+       display: block;
+   }
+   .event{
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       background-color: white;
+   }
+   .aboutus img{
+       max-height: 100%;
+       width: auto;
+       background-color: white;
+   }
+
+}
+
+ /* courses section */
  .courses-container{
      background-color: grey;
 
@@ -140,6 +225,49 @@ a:active { text-decoration: none; }
  .classlist{
      padding-bottom: 24px;
  }
+ .mobile{
+    display: none;
+}
+ @media only screen and (max-width: 760px) {
+    .desktop{
+        display: none; 
+    }
+    .mobile2{
+        height: fit-content;
+    }
+     .courses-container{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        height:fit-content;
+        align-items:  center;
+        justify-content: center;
+        padding-bottom: 32px;
+      }
+      .courses-container h1{
+          padding-top: 32px;
+          padding-bottom: 16px;
+
+      }
+    
+    .course-links{
+        display: flex;
+        flex-direction: column;
+        border: grey;
+        width: 70%;
+    }
+    .course-links a{
+        color: darkslategray;
+        background-color: gray;
+        padding-bottom: 24px;
+        padding-top: 16px;
+        padding-left: 16px;
+        margin-bottom: 8px;
+    }
+ 
+ }
+ /* Thesis exhibit section */
  .exhibit-container{
      display: flex;
  }
@@ -176,4 +304,49 @@ a:active { text-decoration: none; }
 }
 .exhibit-text{
     width: 65%;
+}
+@media only screen and (max-width: 760px) {
+    .exhibit-right{
+        display: none;
+    }
+    .exhibit-left h3{
+        display: none;
+    }
+    .exhibit-left p{
+        display: none;
+    }
+    .exhibit-left{
+        width: 100%;
+    }
+
+}
+footer{
+    padding-top: 16px;
+    padding-left: 24px;
+    height: 64px;
+}
+footer p {
+    float:left;
+    margin: 0;
+}
+footer a {
+    float: right;
+    padding-right: 16px;
+}
+@media only screen and (max-width: 760px) {
+     .desktop {
+        display: none;
+    }
+    .mobile{
+        display: flex;
+        height: 64px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+        background-color: grey;
+    }
 }
