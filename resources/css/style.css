@@ -154,14 +154,14 @@ a:active { text-decoration: none; }
 .guest{
      background-color: grey;
  }
-.mobile{
+.mobile3{
      display: none;
  }
  @media only screen and (max-width: 760px) {
      .desktop{
          display: none; 
      }
-     .mobile{
+     .mobile3{
         display: flex;
         background-color: white;
         flex-wrap: wrap;
@@ -225,7 +225,7 @@ a:active { text-decoration: none; }
  .classlist{
      padding-bottom: 24px;
  }
- .mobile{
+ .mobile2{
     display: none;
 }
  @media only screen and (max-width: 760px) {
@@ -233,6 +233,7 @@ a:active { text-decoration: none; }
         display: none; 
     }
     .mobile2{
+        display: contents;
         height: fit-content;
     }
      .courses-container{
