@@ -14,17 +14,24 @@
 h1 {
     font-family: 'Rufina';
     font-weight: bold;
+    color: #4a4a4a;
 }
 h2{
     font-family: 'Rufina';
+    color: #4a4a4a;
 }
 p{
     font-family: Oxygen;
+    color: #757575;
+}
+a{
+    font-family: Rufina;
+    font-weight: bold;
 }
 /* navigation bar */
 nav{
     background-color: white;
-    color: rgb(82, 80, 80);
+    color: #4a4a4a;
     display: flex;
     flex-direction: row;
 }
@@ -51,10 +58,19 @@ a:active { text-decoration: none; }
     width:auto;
     align-items: center;
   }
+  .leftnav p{
+      font-family: 'Oxygen';
+      font-weight: bold;
+  }
+  .leftnav span{
+      color: black;
+      font-family: 'Rufina';
+  }
   .rightnav{
     display: flex;
     flex-direction: row;
     padding-left: 8px;
+    align-items: center;
   }
   .rightnav a {
       padding-left: 16px;
@@ -85,6 +101,12 @@ a:active { text-decoration: none; }
       padding: 32px 24px;
       width: 60%;
   }
+  .banner-right h1{
+    color: #4a4a4a;
+  }
+  .banner-right h2{
+      color: #4a4a4a;
+  }
   .banner-right{
       display: flex;
       flex-direction: column;
@@ -100,7 +122,7 @@ a:active { text-decoration: none; }
       overflow:visible;
   }
   .button{
-      background-color: darkslategray;
+      background-color: rgb(136, 11, 11);
       width: 70%;
       padding: 8px 0;
       text-align: center;
@@ -108,6 +130,8 @@ a:active { text-decoration: none; }
   }
   .button a{
       color:white;
+      font-family: Rufina;
+      font-style: bold;
   }
   @media only screen and (max-width: 760px) {
     .desktop {
@@ -276,7 +300,7 @@ a:active { text-decoration: none; }
         width: 70%;
     }
     .course-links a{
-        color: darkslategray;
+        color: #4a4a4a;
         background-color: rgb(219,219,219);
         padding-bottom: 24px;
         padding-top: 16px;
