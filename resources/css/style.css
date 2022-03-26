@@ -11,6 +11,16 @@
          url('../fonts/Rufina-Bold.ttf') format('truetype')
          
 }
+h1 {
+    font-family: 'Rufina';
+    font-weight: bold;
+}
+h2{
+    font-family: 'Rufina';
+}
+p{
+    font-family: Oxygen;
+}
 /* navigation bar */
 nav{
     background-color: white;
@@ -282,7 +292,6 @@ a:active { text-decoration: none; }
  .exhibit-section h1{
      padding: 32px 0;
      text-align: center;
-
  }
  .exhibit-left{
      width: 60%;
